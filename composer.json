@@ -1,0 +1,27 @@
+{
+    "name": "juniore/laravel-chiron",
+    "description": "Laravel wrapper package Chiron Rit API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JuniorE",
+            "email": "janjunior.everaert@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Juniore\\Chiron\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Juniore\\Chiron\\ChironServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Juniore\\Chiron\\Facade"
+            }
+        }
+    }
+}
